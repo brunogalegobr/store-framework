@@ -32,8 +32,8 @@
   },
   "flex-layout.row#top": {
     "children": [
-      "total-products.v2",
-      "order-by.v2"
+      "flex-layout.col#filter",
+      "flex-layout.col#search"
     ]
   },
   "flex-layout.col#filter": {
