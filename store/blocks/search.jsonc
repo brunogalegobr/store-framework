@@ -4,10 +4,6 @@
       "context": {
         "skusFilter": "ALL_AVAILABLE"
       }
-    },
-    "blocks": ["search-result-layout", "gallery", "not-found"],
-    "gallery": {
-      "blocks": ["product-summary.shelf"]
     }
   },
   "search-result-layout": {
@@ -60,12 +56,6 @@
     "children": [
       "product-summary-buy-button",
       "product-summary-sku-selector"
-    ]
-  },
-  "search-content": {
-    "children": [
-      "gallery",
-      "not-found"
     ]
   }
 }
