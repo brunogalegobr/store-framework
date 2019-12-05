@@ -5,7 +5,10 @@
         "skusFilter": "ALL_AVAILABLE"
       }
     },
-    "blocks": ["search-result-layout"]
+    "blocks": ["search-result-layout", "gallery", "not-found"],
+    "gallery": {
+      "blocks": ["product-summary.shelf"]
+    }
   },
   "search-result-layout": {
     "blocks": [
@@ -44,6 +47,11 @@
   "flex-layout.col#search": {
     "children": [
       "search-content"
+    ]
+  },"product-summary.shelf": {
+    "children": [
+      "product-summary-buy-button",
+      "product-summary-sku-selector"
     ]
   }
 }
