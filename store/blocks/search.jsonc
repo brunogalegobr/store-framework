@@ -39,8 +39,8 @@
   },
   "flex-layout.row#top": {
     "children": [
-      "flex-layout.col#filter",
-      "flex-layout.col#search"
+      "total-products.v2",
+      "order-by.v2"
     ]
   },
   "flex-layout.col#filter": {
@@ -60,6 +60,12 @@
     "children": [
       "product-summary-buy-button",
       "product-summary-sku-selector"
+    ]
+  },
+  "search-content": {
+    "children": [
+      "gallery",
+      "not-found"
     ]
   }
 }
